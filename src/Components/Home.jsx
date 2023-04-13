@@ -7,18 +7,16 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white"
+      className="h-screen w-full bg-gradient-to-b from-gray-800 to-gray-600 text-white"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Front-End Developer.
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quam
-            pariatur adipisci, veritatis nulla dolores sit quo, blanditiis autem
-            voluptate beatae praesentium consectetur, maiores facere
-            dignissimos! Molestiae optio error quis!
+          <p className="text-white py-4 max-w-md">
+            with 7+ Years Experience <span className="font-bold px-2">|</span>
+            Located in Perrysburg, OH
           </p>
           <div>
             <Link

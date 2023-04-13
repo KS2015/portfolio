@@ -7,6 +7,9 @@ module.exports = {
     extend: {},
     fontFamily: {
       signature: ["Great Vibes"]
+    },
+    minWidth: {
+      '400': '400px',
     }
   },
   plugins: [],
