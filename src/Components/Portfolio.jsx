@@ -114,7 +114,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-gray-800 to-gray-600 w-full text-white"
+      className="pt-24 sm:pt-16 bg-gradient-to-b from-gray-800 to-gray-600 w-full text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -160,7 +160,7 @@ const Portfolio = () => {
                         }
                         target="_blank"
                         rel="noreferrer"
-                        className="inline-flex flex-row justify-center items-center border py-2 px-5 rounded-md hover:scale-105 duration-300 cursor-pointer"
+                        className="inline-flex flex-row justify-center items-center border py-2 px-5 rounded-md hover:bg-gray-700 hover:text-gray-200 duration-500 cursor-pointer hover:shadow-xl hover:shadow-gray-850"
                       >
                         View Website <FiExternalLink className="ml-2" />
                       </a>
@@ -206,7 +206,7 @@ const Portfolio = () => {
                         href={project.link ? project.link : project.fullSrc}
                         target="_blank"
                         rel="noreferrer"
-                        className="inline-flex flex-row justify-center items-center border py-2 px-5 mt-3 text-sm rounded-md cursor-pointer hover:bg-gray-700 hover:border-gray-700 duration-500"
+                        className="inline-flex flex-row justify-center items-center border py-2 px-5 mt-3 text-sm rounded-md cursor-pointer hover:bg-gray-700 duration-500  hover:shadow-xl hover:shadow-gray-850"
                       >
                         View Website <FiExternalLink className="ml-2" />
                       </a>

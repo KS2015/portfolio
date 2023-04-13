@@ -36,7 +36,7 @@ const Home = () => {
           <img
             src={Headshot}
             alt="my headshot"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-2/3 md:w-full shadow-xl shadow-gray-850"
           />
         </div>
       </div>
