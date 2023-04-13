@@ -11,7 +11,7 @@ const Footer = () => {
           <a
             href="https://react.dev/"
             target="_blank"
-            rel="no-referrer"
+            rel="noreferrer"
             className="px-2"
           >
             <DiReact size={24} fill={"#087EA4"} />
@@ -20,7 +20,7 @@ const Footer = () => {
           <a
             href="https://tailwindcss.com/"
             target="_blank"
-            rel="no-referrer"
+            rel="noreferrer"
             className="px-2"
           >
             <SiTailwindcss size={24} fill={"#38BDF8"} />
