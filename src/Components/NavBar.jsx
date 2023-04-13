@@ -53,7 +53,11 @@ const NavBar = () => {
         onClick={() => setNav(!nav)}
         className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
       >
-        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+        {nav ? (
+          <FaTimes size={30} className="hover:text-white duration-200" />
+        ) : (
+          <FaBars size={30} className="hover:text-white duration-200" />
+        )}
       </div>
 
       {nav && (
@@ -68,6 +72,7 @@ const NavBar = () => {
                 to={link}
                 smooth
                 duration={500}
+                className="hover:text-white duration-200"
               >
                 {link}
               </Link>
