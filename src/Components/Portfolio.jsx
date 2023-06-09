@@ -109,6 +109,20 @@ const Portfolio = () => {
         "Adobe Photoshop",
       ],
     },
+    {
+      id: 4,
+      title: "WordPress Website",
+      link: "https://sparklycleaningmilwaukee.com/",
+      industry: "Cleaning",
+      tools: [
+        "WordPress,",
+        "HTML,",
+        "CSS,",
+        "JavaScript & jQuery,",
+        "PHP,",
+        "Adobe Photoshop",
+      ],
+    },
   ];
 
   return (
