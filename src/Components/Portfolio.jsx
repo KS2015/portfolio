@@ -112,8 +112,8 @@ const Portfolio = () => {
     {
       id: 4,
       title: "WordPress Website",
-      link: "https://sparklycleaningmilwaukee.com/",
-      industry: "Cleaning",
+      link: "https://sparklycleaningnashville.com/",
+      industry: "Services",
       tools: [
         "WordPress,",
         "HTML,",
