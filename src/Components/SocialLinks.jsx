@@ -13,16 +13,16 @@ const SocialLinks = () => {
       href: "https://www.linkedin.com/in/kyle-sampson-96a247121/",
       style: "rounded-tr-md",
     },
-    {
-      id: 2,
-      child: (
-        <>
-          GitHub <FaGithub size={30} />
-        </>
-      ),
-      href: "https://github.com/KS2015",
-      style: "rounded-br-md",
-    },
+    // {
+    //   id: 2,
+    //   child: (
+    //     <>
+    //       GitHub <FaGithub size={30} />
+    //     </>
+    //   ),
+    //   href: "https://github.com/KS2015",
+    //   style: "rounded-br-md",
+    // },
   ];
 
   return (

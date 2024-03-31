@@ -15,7 +15,7 @@ const Home = () => {
             I'm a Front-End Developer.
           </h2>
           <p className="text-white py-4 max-w-md">
-            with 7+ Years Experience <span className="font-bold px-2">|</span>
+            with 8+ Years Experience <span className="font-bold px-2">|</span>
             Located in Perrysburg, OH
           </p>
           <div>
