@@ -11,7 +11,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.linkedin.com/in/kyle-sampson-96a247121/",
-      style: "rounded-tr-md",
+      style: "rounded-md",
     },
     // {
     //   id: 2,
