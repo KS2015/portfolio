@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaFilePdf } from "react-icons/fa";
 import resumeLink from "../assets/portfolio/Sampson-Resume.pdf";
 
 const SocialLinks = () => {
