@@ -18,7 +18,7 @@ const SocialLinks = () => {
       id: 2,
       child: (
         <>
-          Resume <FaFile size={30} />
+          Resume <FaFilePdf size={30} />
         </>
       ),
       href: resumeLink,
