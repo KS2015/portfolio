@@ -1,5 +1,6 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
+import resumeLink from "../assets/portfolio/Sampson-Resume.pdf";
 
 const SocialLinks = () => {
   const links = [
@@ -13,16 +14,16 @@ const SocialLinks = () => {
       href: "https://www.linkedin.com/in/kyle-sampson-96a247121/",
       style: "rounded-md",
     },
-    // {
-    //   id: 2,
-    //   child: (
-    //     <>
-    //       GitHub <FaGithub size={30} />
-    //     </>
-    //   ),
-    //   href: "https://github.com/KS2015",
-    //   style: "rounded-br-md",
-    // },
+    {
+      id: 2,
+      child: (
+        <>
+          Resume <FaFile size={30} />
+        </>
+      ),
+      href: resumeLink,
+      style: "rounded-br-md",
+    },
   ];
 
   return (
