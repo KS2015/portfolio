@@ -2,7 +2,7 @@ import React from "react";
 import meritImage from "../assets/portfolio/merit-image.png";
 import fullMeritImage from "../assets/portfolio/merit-image-full.png";
 import shydaImage from "../assets/portfolio/shyda-image.png";
-import idtImage from "../assets/portfolio/idt-image.png";
+import ventImage from "../assets/portfolio/vent-img.png";
 import SectionTitle from "../Components/SectionTitle";
 import { FiExternalLink } from "react-icons/fi";
 
@@ -35,7 +35,7 @@ const Portfolio = () => {
       shortdesc:
         "E-Commerce website that I was able to build to match the client approved design.",
       fulldesc:
-        "This example features an e-commerce starter theme that I was able to expand and build upon to match the client approved design. The website also involved importing products, revising other pages to match, as well as backend work to complete the site. This site also features a custom-built 'age verification consent' popup that checks to make sure the visitor is of age to continue viewing the content.",
+        "This project started with an e-commerce starter theme that I expanded and customized to align with the client-approved design. It involved importing products, refining pages for consistency, and handling backend tasks to complete the site. Additionally, I implemented a custom-built age verification popup to ensure visitors meet the age requirement before accessing the content.",
       tools: [
         "BigCommerce,",
         "HTML,",
@@ -48,30 +48,30 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: idtImage,
-      title: "Custom WordPress Theme",
+      src: ventImage,
+      title: "Redesigned Laravel Website",
       shortdesc:
-        "Optimzed website to showcase products & industries as well be interactive and intuitive to navigate and use.",
+        "Transformed online presence with modern design, captivating animations, and a focus on the product benefits that matter most.",
       fulldesc:
-        "This is another example of a custom built WordPress theme homepage. This company had multiple products, product categories, industries, learning & resource articles, and much more that needed organized on the site. I was able to create individual areas of the site to showcase of these in a way that was disgestible to their target audience. Through the use of custom fields and custom relationships, the site is displayed in a way where you can always continue to learn more about the product or industry that you're viewing. My favorite part of this website is the neomorphism design throughout. It makes the brand feel welcoming and a resource to work with you, not just sell you a product. ",
+        "The website redesign focuses on transforming an outdated design into a modern, dynamic experience. It incorporates engaging animations and seamless video integration to capture user attention and enhance storytelling. Emphasis is placed on showcasing the product benefits through visually appealing layouts, interactive elements, and clear calls-to-action, providing an intuitive and immersive browsing experience. The result is a fresh, user-centered design that not only looks sleek but also effectively communicates the value of the products. ",
       tools: [
-        "WordPress,",
+        "Laravel,",
         "HTML,",
         "CSS/SCSS,",
         "JavaScript & jQuery,",
         "PHP,",
-        "Adobe Photoshop",
+        "Figma",
       ],
-      link: "https://idtechproducts.com/",
+      link: "https://ventrac.com/",
     },
   ];
 
   const moreProjects = [
     {
-      id: 1,
+      id: 3,
       title: "Custom WordPress Theme",
-      link: "https://indatel.com",
-      industry: "Connectivity",
+      link: "https://linkfound.org",
+      industry: "Nonprofit",
       tools: [
         "WordPress,",
         "HTML,",
@@ -96,7 +96,7 @@ const Portfolio = () => {
       ],
     },
     {
-      id: 3,
+      id: 1,
       title: "Custom WordPress Theme",
       link: "https://www.youngstarconnect.com/",
       industry: "Public Service",
@@ -116,6 +116,20 @@ const Portfolio = () => {
       industry: "Services",
       tools: [
         "WordPress,",
+        "HTML,",
+        "CSS,",
+        "JavaScript & jQuery,",
+        "PHP,",
+        "Adobe Photoshop",
+      ],
+    },
+    {
+      id: 5,
+      title: "Website Brand Refresh",
+      link: "https://betterbricks.com/",
+      industry: "Services",
+      tools: [
+        "CraftCMS,",
         "HTML,",
         "CSS,",
         "JavaScript & jQuery,",
