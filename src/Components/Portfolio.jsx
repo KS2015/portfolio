@@ -9,6 +9,24 @@ import { FiExternalLink } from "react-icons/fi";
 const Portfolio = () => {
   const portfolios = [
     {
+      id: 3,
+      src: ventImage,
+      title: "Redesigned Laravel Website",
+      shortdesc:
+        "Transformed online presence with modern design, captivating animations, and a focus on the product benefits that matter most.",
+      fulldesc:
+        "The website redesign focuses on transforming an outdated design into a modern, dynamic experience. It incorporates engaging animations and seamless video integration to capture user attention and enhance storytelling. Emphasis is placed on showcasing the product benefits through visually appealing layouts, interactive elements, and clear calls-to-action, providing an intuitive and immersive browsing experience. The result is a fresh, user-centered design that not only looks sleek but also effectively communicates the value of the products. ",
+      tools: [
+        "Laravel,",
+        "HTML,",
+        "CSS/SCSS,",
+        "JavaScript & jQuery,",
+        "PHP,",
+        "Figma",
+      ],
+      link: "https://ventrac.com/",
+    },
+    {
       id: 1,
       src: meritImage,
       fullSrc: fullMeritImage,
@@ -45,24 +63,6 @@ const Portfolio = () => {
         "Adobe XD",
       ],
       link: "https://shydasoutdoorcenter.com",
-    },
-    {
-      id: 3,
-      src: ventImage,
-      title: "Redesigned Laravel Website",
-      shortdesc:
-        "Transformed online presence with modern design, captivating animations, and a focus on the product benefits that matter most.",
-      fulldesc:
-        "The website redesign focuses on transforming an outdated design into a modern, dynamic experience. It incorporates engaging animations and seamless video integration to capture user attention and enhance storytelling. Emphasis is placed on showcasing the product benefits through visually appealing layouts, interactive elements, and clear calls-to-action, providing an intuitive and immersive browsing experience. The result is a fresh, user-centered design that not only looks sleek but also effectively communicates the value of the products. ",
-      tools: [
-        "Laravel,",
-        "HTML,",
-        "CSS/SCSS,",
-        "JavaScript & jQuery,",
-        "PHP,",
-        "Figma",
-      ],
-      link: "https://ventrac.com/",
     },
   ];
 
