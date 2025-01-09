@@ -11,7 +11,7 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: ventImage,
+      src: recipeApp,
       title: "Recipe Sharing App | Design & Development",
       shortdesc:
         "Recipe app design was created in Figma for prototyping and built using React and TailwindCSS for a modern and responsive user interface, showcasing my skills in UI/UX design and front-end development.",
