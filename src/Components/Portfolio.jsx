@@ -3,13 +3,25 @@ import meritImage from "../assets/portfolio/merit-image.png";
 import fullMeritImage from "../assets/portfolio/merit-image-full.png";
 import shydaImage from "../assets/portfolio/shyda-image.png";
 import ventImage from "../assets/portfolio/vent-img.png";
+import recipeApp from "../assets/portfolio/recipe-app-design.jpg";
 import SectionTitle from "../Components/SectionTitle";
 import { FiExternalLink } from "react-icons/fi";
 
 const Portfolio = () => {
   const portfolios = [
     {
-      id: 3,
+      id: 1,
+      src: ventImage,
+      title: "Recipe Sharing App | Design & Development",
+      shortdesc:
+        "Recipe app design was created in Figma for prototyping and built using React and TailwindCSS for a modern and responsive user interface, showcasing my skills in UI/UX design and front-end development.",
+      fulldesc:
+        "I designed this recipe app in Figma to prototype an intuitive and visually appealing user interface. The app features functionalities like recipe browsing, user profiles, and favorite recipes, all aimed at enhancing the user experience. Using React, I implemented dynamic components and state management to ensure smooth navigation and interactivity. TailwindCSS was utilized for rapid styling and responsive design, aligning the app's visuals with modern web design standards. This project highlights my proficiency in creating user-centered designs and efficiently transforming them into functional web applications. ",
+      tools: ["Figma,", "React,", "TailwindCSS,"],
+      link: "https://www.figma.com/proto/qoOUAVgr5F2UeWE7NSLKNj/Recipe-Sharing-App?node-id=12-371&p=f&t=N4stMQQuKtpT1ish-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
+    },
+    {
+      id: 2,
       src: ventImage,
       title: "Redesigned Laravel Website",
       shortdesc:
@@ -27,7 +39,7 @@ const Portfolio = () => {
       link: "https://ventrac.com/",
     },
     {
-      id: 1,
+      id: 3,
       src: meritImage,
       fullSrc: fullMeritImage,
       title: "Custom WordPress Theme",
@@ -47,7 +59,7 @@ const Portfolio = () => {
       link: "",
     },
     {
-      id: 2,
+      id: 4,
       src: shydaImage,
       title: "E-Commerce Website Design & Development",
       shortdesc:
@@ -190,7 +202,7 @@ const Portfolio = () => {
                         rel="noreferrer"
                         className="inline-flex flex-row justify-center items-center border py-2 px-5 rounded-md hover:bg-gray-700 hover:text-gray-200 duration-500 cursor-pointer hover:shadow-xl hover:shadow-gray-850"
                       >
-                        View Website <FiExternalLink className="ml-2" />
+                        View Project <FiExternalLink className="ml-2" />
                       </a>
                     </div>
                   </div>
