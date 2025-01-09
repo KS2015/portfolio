@@ -14,10 +14,10 @@ const Portfolio = () => {
       src: recipeApp,
       title: "Recipe Sharing App | Design & Development",
       shortdesc:
-        "Recipe app design was created in Figma for prototyping and built using React and TailwindCSS for a modern and responsive user interface, showcasing my skills in UI/UX design and front-end development.",
+        "Recipe app design was created in Figma for prototyping and built using React and Tailwind CSS for a modern and responsive user interface, showcasing my skills in UI/UX design and front-end development.",
       fulldesc:
-        "I designed this recipe app in Figma to prototype an intuitive and visually appealing user interface. The app features functionalities like recipe browsing, user profiles, and favorite recipes, all aimed at enhancing the user experience. Using React, I implemented dynamic components and state management to ensure smooth navigation and interactivity. TailwindCSS was utilized for rapid styling and responsive design, aligning the app's visuals with modern web design standards. This project highlights my proficiency in creating user-centered designs and efficiently transforming them into functional web applications. ",
-      tools: ["Figma,", "React,", "TailwindCSS,"],
+        "I designed this recipe app in Figma to prototype an intuitive and visually appealing user interface. The app features functionalities like recipe browsing, user profiles, and favorite recipes, all aimed at enhancing the user experience. Using React, I implemented dynamic components and state management to ensure smooth navigation and interactivity. Tailwind CSS was utilized for rapid styling and responsive design, aligning the app's visuals with modern web design standards. This project highlights my proficiency in creating user-centered designs and efficiently transforming them into functional web applications. ",
+      tools: ["Figma,", "React,", "TailwindCSS"],
       link: "https://www.figma.com/proto/qoOUAVgr5F2UeWE7NSLKNj/Recipe-Sharing-App?node-id=12-371&p=f&t=N4stMQQuKtpT1ish-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
     },
     {

@@ -15,7 +15,7 @@ const About = () => {
           Hello! I am a Front-End Web Developer with over 9 years of experience
           with a demonstrated history of working in the marketing and
           advertising industry. Skilled in WordPress Theme development, HTML,
-          CSS & SCSS, Tailwind CSS, JavaScript & jQuery, PHP, Responsive Web
+          CSS, SCSS, Tailwind CSS, JavaScript & jQuery, PHP, Responsive Web
           Design, Shopify Theme Customization, Web Frameworks (Bootstrap,
           Foundation), Email Marketing (Pardot, Hubspot, Vbout), and SEO tools
           (Google Analytics, Yoast SEO, Google PageSpeed Insights).
